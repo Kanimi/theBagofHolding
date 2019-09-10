@@ -47,5 +47,43 @@ public class DbDataControllerTest {
         assertEquals(dbdataController.listAllDice().get(0).getType(), "D6");
     }
 
+    @Test
+    public void testGetDice(){
+        DbData dice = new DbData();
+        dice.setAmount(20L);
+        dice.setColour("Brown");
+        dice.setMaterial("Plastic");
+        dice.setType("D6");
+
+        when(repository.findOne(20L)).thenReturn(dice);
+
+        assertEquals(dbdataController.getDice(20L).getType(), "D6");
+    }
+
+    @Test
+    public void testAddDice(){
+        DbData dice = new DbData();
+        dice.setAmount(20L);
+        dice.setColour("Brown");
+        dice.setMaterial("Plastic");
+        dice.setType("D6");
+
+        when(repository.saveAndFlush(dice)).thenReturn(dice);
+
+        assertEquals(dbdataController.addDice(dice).getType(), "D6");
+    }
+
+    @Test
+    public void testDeleteDice(){
+        DbData dice = new DbData();
+        dice.setAmount(20L);
+        dice.setColour("Brown");
+        dice.setMaterial("Plastic");
+        dice.setType("D6");
+
+        when(repository.findOne(20L)).thenReturn(dice);
+
+        assertEquals(dbdataController.deleteDice(20L).getType(), "D6");
+    }
 
 }
