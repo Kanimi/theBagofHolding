@@ -68,9 +68,8 @@ This is a very high-level architecture diagram to demonstrate the architecture o
 ### Wireframes & Screenshot comparisons
 *Please click on thumbnails to view full image as it would take too much space to have full images displayed*
 
-<img width="150" height="150" src="/Documentation/Initial_Wireframe.png">
-
-![Initial_Wireframe class=thumbnail](/Documentation/Initial_Wireframe.png "Initial Wireframe")
+#### Initial Wireframe
+<img width="500" height="500" src="/Documentation/Initial_Wireframe.png">
 
 ![Login Wireframe](/Documentation/Login_Wireframe.png)
 ![Login Screenshot](/Documentation/Login_Screenshot.png)
