@@ -67,6 +67,8 @@ This is a very high-level architecture diagram to demonstrate the architecture o
 ## Front End Design
 ### Wireframes & Screenshot comparisons
 
+![thumbnail](/Documentation/Initial_Wireframe.png "Initial Wireframe")
+
 <details>
     <summary>Initial Proposal</summary>
     ![Initial_Wireframe](/Documentation/Initial_Wireframe.png "Initial Wireframe")
@@ -110,3 +112,8 @@ The build, test and deployment process was automated using Jenkins, with a webho
 This application can be deployed both locally and externally through a virtual machine. The constants.js file has commented out options to switch from an external to local IP address.
 
 ![Deployment Pipeline](/Documentation/CI_pipeline.jpg)
+
+img[alt=thumbnail] {
+   width:150px;
+   height:100px;
+}
