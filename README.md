@@ -69,26 +69,17 @@ This is a very high-level architecture diagram to demonstrate the architecture o
 
 ![Initial_Wireframe class=thumbnail](/Documentation/Initial_Wireframe.png "Initial Wireframe")
 
-<details>
-    <summary>Initial Proposal</summary>
-    ![Initial_Wireframe](/Documentation/Initial_Wireframe.png "Initial Wireframe")
-</details>
+![Initial_Wireframe](/Documentation/Initial_Wireframe.png "Initial Wireframe")
 
-<details>
-  <summary>Login</summary>
-  ![Login Wireframe](/Documentation/Login_Wireframe.png)
-  ![Login Screenshot](/Documentation/Login_Screenshot.png)
-</details>
-<details>
-    <summary>Registration</summary>
-    ![Registration Wireframe](/Documentation/Registration_Wireframe.png)
-    ![Registration Screenshot](/Documentation/Registration_Screenshot.png)
-</details>
-<details>
-    <summary>Home</summary>
-    ![Home Wireframe](/Documentation/Home_Wireframe.png)
-    ![Home Screenshot](/Documentation/Home_Screenshot.png)
-</details>
+![Login Wireframe](/Documentation/Login_Wireframe.png)
+![Login Screenshot](/Documentation/Login_Screenshot.png)
+
+![Registration Wireframe](/Documentation/Registration_Wireframe.png)
+![Registration Screenshot](/Documentation/Registration_Screenshot.png)
+
+![Home Wireframe](/Documentation/Home_Wireframe.png)
+![Home Screenshot](/Documentation/Home_Screenshot.png)
+
 
 <a name="testing"></a>
 ## Testing
