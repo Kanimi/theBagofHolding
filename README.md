@@ -66,10 +66,11 @@ This is a very high-level architecture diagram to demonstrate the architecture o
 <a name="FE"></a>
 ## Front End Design
 ### Wireframes & Screenshot comparisons
+*Please click on thumbnails to view full image as it would take too much space to have full images displayed*
+
+<img width="150" height="150" src="/Documentation/Initial_Wireframe.png">
 
 ![Initial_Wireframe class=thumbnail](/Documentation/Initial_Wireframe.png "Initial Wireframe")
-
-![Initial_Wireframe](/Documentation/Initial_Wireframe.png "Initial Wireframe")
 
 ![Login Wireframe](/Documentation/Login_Wireframe.png)
 ![Login Screenshot](/Documentation/Login_Screenshot.png)
