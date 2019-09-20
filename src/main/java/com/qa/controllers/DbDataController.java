@@ -40,6 +40,7 @@ public class DbDataController {
         existing.setColour(dice.getColour());
         existing.setMaterial(dice.getMaterial());
         existing.setType(dice.getType());
+        repository.flush();
 
         return existing;
     }
