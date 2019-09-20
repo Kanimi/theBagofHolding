@@ -67,7 +67,7 @@ This is a very high-level architecture diagram to demonstrate the architecture o
 ## Front End Design
 ### Wireframes & Screenshot comparisons
 
-![thumbnail](/Documentation/Initial_Wireframe.png "Initial Wireframe")
+![Initial_Wireframe class=thumbnail](/Documentation/Initial_Wireframe.png "Initial Wireframe")
 
 <details>
     <summary>Initial Proposal</summary>
