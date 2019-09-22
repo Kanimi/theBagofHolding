@@ -3,6 +3,7 @@ Banner
 # QA Solo Project - the Bag of Holding
 
 ## Index
+
 [Project Brief](#brief)
    
 [Architecture](#architecture)
@@ -16,6 +17,8 @@ Banner
    * [Selenium](#selenium)
 
 [Improvements for the Future](#improve)
+
+[Authors](#auth)
 
 <a name="brief"></a>
 ## The Brief
@@ -45,7 +48,7 @@ I HAVE TAKEN INTO CONSIDERATION THAT MY USERS MAY BE HARD OF SEEING, AS SUCH I H
 <a name="architecture"></a>
 ## Architecture
 <a name="erd"></a>
-### Entity Relationship Diagrams
+### Entity Relationship Diagrams (ERD)
 #### Initial plan
 ![Initial ERD](/Documentation/ERD_Initial_Plan.jpg)
 
@@ -56,39 +59,21 @@ The initial plan for the ERD consisted of a lot more tables and entities than we
 
 As shown in this ERD, I ended up changing the focus of the initial tables. After building the first entity (poses), I concluded it made more sense to continue making a routine table first, encompassing a many-to-many relationship between the two. My reasoning was that it would make for a more interesting user experience to create routines from the poses, rather than arbitrarily add health benefits to each pose.
 
-<a name="mla"></a>
-### Multi Tier Architecture Diagram
-Please click on the diagram for a high resolution version:
-![MTA](/Documentation/MTA.jpg)
-
-This is a very high-level architecture diagram to demonstrate the architecture of the application. It does not include getters and setters, test classes, or constants classes. 
-
 <a name="FE"></a>
 ## Front End Design
 ### Wireframes & Screenshot comparisons
-*Please click on thumbnails to view full image as it would take too much space to have full images displayed*
 
-#### Initial Wireframe
-<img width="500" height="500" src="/Documentation/Initial_Wireframe.png">
-
-![Login Wireframe](/Documentation/Login_Wireframe.png)
-![Login Screenshot](/Documentation/Login_Screenshot.png)
-
-![Registration Wireframe](/Documentation/Registration_Wireframe.png)
-![Registration Screenshot](/Documentation/Registration_Screenshot.png)
-
-![Home Wireframe](/Documentation/Home_Wireframe.png)
-![Home Screenshot](/Documentation/Home_Screenshot.png)
-
+Due to the amount of space it would have taken (dropdowns are not compatible with image display) please click the following link to see the [FrontEnd Github Repository.](https://github.com/Kanimi/theBagofHoldingFrontEnd)
 
 <a name="testing"></a>
 ## Testing
 
-JUnit, Mockito and Selenium
-Codacy for refactoring
+JUnit, Mockito and Selenium tests have been used for automated testing, and Codacy for code analysis and refactoring.
 
-<a name="reports"></a>
-### Report Screenshots
+<a name="report"></a>
+### Report Screenshot
+
+![Codacy Report](/Documentation/Codacy_Report "Codacy Report")
 
 <a name="improve"></a>
 ## Improvements for the Future
@@ -98,13 +83,9 @@ Codacy for refactoring
 <a name="depl"></a>
 ## Deployment
 
-The build, test and deployment process was automated using Jenkins, with a webhook to GitHub which was triggered with every push event
-
-This application can be deployed both locally and externally through a virtual machine. The constants.js file has commented out options to switch from an external to local IP address.
-
 ![Deployment Pipeline](/Documentation/CI_pipeline.jpg)
 
-img[alt=thumbnail] {
-   width:150px;
-   height:100px;
-}
+<a name="auth"></a>
+## Authors
+
+[Karolina Dudek](https://www.linkedin.com/in/karolina-dudek97/)
