@@ -53,7 +53,6 @@ public class DbDataControllerTest {
         dice.setMaterial("Plastic");
         dice.setType("D6");
 
-        //CHANGE TO FIND ALL
         when(repository.findOne(20L)).thenReturn(dice);
 
         assertEquals(dbdataController.getDice(20L).getType(), "D6");
