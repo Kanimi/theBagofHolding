@@ -11,23 +11,19 @@ public class DbDataController {
     @Autowired
     private DbDataRepository repository;
 
-    // Read all
     @RequestMapping(value = "dice", method = RequestMethod.GET)
     public List<DbData> listAllDice(){return repository.findAll();}
 
-    // Create dice
     @RequestMapping(value = "dice", method = RequestMethod.POST)
     public DbData addDice(@RequestBody DbData DbData){
         return repository.saveAndFlush(DbData);
     }
 
-    // Get a die by ID
     @RequestMapping(value = "dice/{id}", method = RequestMethod.GET)
     public DbData getDice(@PathVariable Long id){
         return repository.findOne(id);
     }
 
-    // Delete a die by ID
     @RequestMapping(value = "dice/{id}", method = RequestMethod.DELETE)
     public DbData deleteDice(@PathVariable Long id){
         DbData existing = repository.findOne(id);
@@ -35,7 +31,6 @@ public class DbDataController {
         return existing;
     }
 
-    //Update a die entry
     @RequestMapping(value = "dice/{id}", method = RequestMethod.PUT)
     public DbData updateDice(@PathVariable Long id, @RequestBody DbData dice){
         DbData existing = repository.findOne(id);

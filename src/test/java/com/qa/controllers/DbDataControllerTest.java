@@ -83,7 +83,7 @@ public class DbDataControllerTest {
 
         when(repository.findOne(1L)).thenReturn(dice);
 
-        assertEquals(dbdataController.deleteDice(1L).getId(), "1");
+        assertEquals(dbdataController.deleteDice(1L).getType(), "D6");
     }
 
     @Test
