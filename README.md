@@ -63,6 +63,8 @@ JUnit, Mockito and Selenium tests have been used for automated testing, and Coda
 
 ![JUnit/Mockito Report](/Documentation/Junit_Mockito_Report.png "JUnit/Mockito Report")
 
+Click here for the [Surefire Report](/target/site/surefire-report.html)
+
 Click here for screenshots on [Selenium Tests](https://github.com/Kanimi/theBagofHoldingSelenium)
 
 <a name="improve"></a>
