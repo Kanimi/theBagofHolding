@@ -61,7 +61,7 @@ Due to the amount of space it would have taken (dropdowns are not compatible wit
 
 JUnit, Mockito and Selenium tests have been used for automated testing, and Codacy for code analysis and refactoring.
 
-![JUnit/Mockito Report](/Documentation/JUnit_Mockito_Report.png "JUnit/Mockito Report")
+![JUnit/Mockito Report](/Documentation/Junit_Mockito_Report.png "JUnit/Mockito Report")
 
 Click here for screenshots on [Selenium Tests](https://github.com/Kanimi/theBagofHoldingSelenium)
 
