@@ -30,4 +30,17 @@ public class DbDataController {
         repository.delete(existing);
         return existing;
     }
+
+    @RequestMapping(value = "dice/{id}", method = RequestMethod.PUT)
+    public DbData updateDice(@PathVariable Long id, @RequestBody DbData dice){
+        DbData existing = repository.findOne(id);
+
+        existing.setAmount(dice.getAmount());
+        existing.setColour(dice.getColour());
+        existing.setMaterial(dice.getMaterial());
+        existing.setType(dice.getType());
+        repository.flush();
+
+        return existing;
+    }
 }
