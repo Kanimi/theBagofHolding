@@ -82,4 +82,6 @@ Click here for screenshots on [Selenium Tests](https://github.com/Kanimi/theBago
 
 ![Deployment Pipeline](/Documentation/CI_pipeline.png "Continuous Integration Pipeline")
 
-I wanted to use mySQL database instead of h2 as my database data would persist without having to host a machine with my Intellij project, it would be done online instead on the Google SQL service. However I ran into hibernation errors which due to the time constraint I wasn't able to solve in time for the deadline. Additionally I have looked into getting my entire back end on my virtual machine with Docker, unfortunately there were issues with my jar file due to the manifest file and I decided to not pursue this futher in favour of finishing the project on time. 
+I wanted to use mySQL database instead of h2 as my database data would persist without having to host a machine with my Intellij project, it would be done online instead on the Google SQL service. However I ran into hibernation errors which due to the time constraint I wasn't able to solve in time for the deadline. Additionally I have looked into getting my entire back end on my virtual machine with Docker, unfortunately there were issues with my jar file due to the manifest file and I decided to not pursue this futher in favour of finishing the project on time.
+
+[Link to Trello](https://trello.com/b/uPaOt6IY/qa-solo-project-the-bag-of-holding) 
